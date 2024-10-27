@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 const allowedOrigins = [
   'http://localhost:5174',
-  'https://myproject-pa17vie94-saleelvks-projects.vercel.app'// Your Vite app
+  'https://myproject-pa17vie94-saleelvks-projects.vercel.app',// Your Vite app
   'http://localhost:5173',     // Another allowed origin
   // Add more origins as needed
 ];
