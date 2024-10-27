@@ -4,7 +4,8 @@ const { getProducts, addProduct, editProduct, deleteProduct, getProductsById } =
 const { adminOnly,authMiddleware } = require('../middlewares/auth-middleware');
 const router = express.Router();
 
-router.use('/uploads',express.static('uploads'));
+const path = require('path');
+router.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 router.get('/products', getProducts); 
 router.get('/products/:id', getProductsById);
 
