@@ -21,8 +21,8 @@ app.use(cookieParser());
 const allowedOrigins = [
   'http://localhost:5174',
   'https://frontend-jt6eoctpa-saleelvks-projects.vercel.app',// Your Vite app
+  'https://admin-qwnoxjbo7-saleelvks-projects.vercel.app',     // Another allowed origin
   'http://localhost:5173',
-  'https://admin-fpyeyyvn4-saleelvks-projects.vercel.app ',     // Another allowed origin
   // Add more origins as needed
 ];
 // Apply CORS middleware before routes
